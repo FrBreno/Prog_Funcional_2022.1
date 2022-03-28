@@ -1,4 +1,4 @@
-# S02
+# S02 - Pesquisa
 
 ## Questionamento
 
@@ -61,23 +61,48 @@ Fatorial de x:
 
 ### 3. Declarativo
 
-#### Exemplo de aplicação
+Esse paradigma determina que as instruções passadas ao computador devem especificar a sequência lógica sem determinar o fluxo de controle. O foco da resolução está em determinar "o quê" e não "o como" determinado, por exemplo, no paradigma imperativo.
+
+#### Aplicação
+
+O paradigma declarativo é bastante utilizado na programação restritiva e na programação lógica, ambas descrevem propriedades da solução desejada, não especificando como o algoritmo em si deve agir.
+
+Exemplo de código, semelhante ao exemplo do paradigma imperativo, em SQL:
+
+```SQL
+  select sum(number) from numbers where mod(number, 2) = 0 and number <= 10;
+```
 
 ### 4. Orientado a objeto
 
-#### Exemplo de aplicação
+A OO determina que o código deve ser modelado de forma a se aproximar ao mundo real, utilizando estrutura de objetos, características e ações.
+
+#### Aplicação
+
+O uso de OO é comum em modelagens complexas, que envolvem entidades e que visam soluções mais elaboradas, tentando aproximar a estrutura de código à características do mundo real.
 
 ### 5. Funcional
 
-#### Exemplo de aplicação
+Esse paradigma deriva do paradigma declarativo e tem duas características que o torna bem diferente dos demais: a imutabilidade e, por consequência, a não mudança de estado do software.
+
+#### Aplicação
+
+Paradigma utilizado em aplicações na qual o código possa ser reduzido (alto nível de abstração), focando em instruções relacionadas ao resultado esperado. Atualmente, a programação funcional vem sendo bastante utilizada para prototipação, especificação e aprendizado em ambientes acadêmicos.
 
 ### 6. Lógico
 
-#### Exemplo de aplicação
+Esse paradigma deriva do declarativo e se destaca por utilizar formas de lógica simbólica como padrões de entrada e saída para, a partir daí, realizar inferências para produzir os resultados.
 
-&nbsp;
+#### Aplicação
 
-##### Fontes:
+O paradigma lógico é utilizado em soluções de problemas que envolvem inteligência artificial, criação de programas especialistas e comprovação de teoremas.
+
+## &nbsp;
+
+##### Fontes de pesquisa:
 
 - [guia.dev](https://guia.dev/pt/pillars/languages-and-tools/programming-paradigms.html#imperativo)
 - [wikipedia.org - Programação imperativa](https://pt.wikipedia.org/wiki/Programação_imperativa)
+- [wikipedia.org - Programação declarativa](https://pt.wikipedia.org/wiki/Programação_declarativa)
+- [Medium - Sergio Costa/Paradigma funcional](https://sergiocosta.medium.com/paradigma-funcional-3194924a8d20)
+- [Betrybe](https://www.google.com/amp/s/blog.betrybe.com/tecnologia/paradigma-de-programacao/amp/)
