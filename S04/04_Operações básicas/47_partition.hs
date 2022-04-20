@@ -2,10 +2,10 @@ module Partition where
 
 {--
   SEPARA A LISTA EM UMA TUPLA DE DUAS LISTAS,
-  UMA COM OS N° POSITIVOS E A OUTRA COM OS N° NEGATIVOS DA LISTA ORIGINAL
+  UMA COM OS N° PARES E A OUTRA COM OS N° IMPARES DA LISTA ORIGINAL
 --}
-splitints :: Integral a => [a] -> ([a], [a])
-splitints u = ([x | x <- u, odd x], [x | x <- u, even x])
+-- splitints :: Integral a => [a] -> ([a], [a])
+-- splitints u = ([x | x <- u, odd x], [x | x <- u, even x])
 
 {--
   RECEBE UM PREDICADO E UMA LISTA, E FAZ A SEPARAÇÃO DE ACORDO COM O PREDICADO.
@@ -16,10 +16,5 @@ splitints u = ([x | x <- u, odd x], [x | x <- u, even x])
   > splitints (<5) [2,4,6,1,1,7]
       OUT:([2,4,1,1],[6,7])
 --}
--- splitints :: (a -> Bool) -> [a] -> ([a], [a])
--- splitints pred u = ([x | x <- u, pred x], [x | x <- u, not $ pred x])
-
-main :: IO ()
-main = do
-  a <- readLn :: IO [Int]
-  print $ splitints a
+splitints :: (a -> Bool) -> [a] -> ([a], [a])
+splitints pred u = ([x | x <- u, pred x], [x | x <- u, not $ pred x])
