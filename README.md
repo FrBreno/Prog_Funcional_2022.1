@@ -23,6 +23,7 @@ Abaixo estão listadas todas as atividades e suas respectivas resoluções.
 
 ### Tópicos Extras
 
+1. [Challenges](https://github.com/FrBreno/Prog_Funcional_2022.1#extras)
 1. [Semana 01](https://github.com/FrBreno/Prog_Funcional_2022.1#semana-01)
 1. [Semana 02](https://github.com/FrBreno/Prog_Funcional_2022.1#semana-02)
 1. [Semana 03](https://github.com/FrBreno/Prog_Funcional_2022.1#semana-03)
@@ -190,6 +191,11 @@ Abaixo estão listadas todas as atividades e suas respectivas resoluções.
 - [@082 filterMaybe](https://github.com/FrBreno/Prog_Funcional_2022.1/blob/main/S08/08_Maybe/82_filterMaybe.hs)
 
 ### Extras
+
+#### Challenges
+
+- [@084 L2 - {robot} distance](https://github.com/FrBreno/Prog_Funcional_2022.1/blob/main/S07/distance.hs)
+- [@086 L1 - Pedra na lua](https://github.com/FrBreno/Prog_Funcional_2022.1/blob/main/S09/L1_PedraNaLua.hs)
 
 #### Semana 01
 
