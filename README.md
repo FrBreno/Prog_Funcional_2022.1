@@ -14,24 +14,18 @@ Abaixo estão listadas todas as atividades e suas respectivas resoluções.
 
 ### Tópicos - Funcional_arcade
 
-1.  Aquecimento
-2.  Operações básicas
-3.  Recursão
-4.  Data.List && Prelude
-5.  Zip e Fold
-6.  Maybe
-7.  Strings
-8.  Math
-9.  Infinite
-10. Ordenação
-11. Novas
-12. Challenges
+1.  [Aquecimento](https://github.com/FrBreno/Prog_Funcional_2022.1#01-aquecimento)
+2.  [Operações básicas](https://github.com/FrBreno/Prog_Funcional_2022.1#02-opera%C3%A7%C3%B5es-b%C3%A1sicas)
+3.  [Recursão](https://github.com/FrBreno/Prog_Funcional_2022.1#03-recurs%C3%A3o)
+4.  [Data.List && Prelude](https://github.com/FrBreno/Prog_Funcional_2022.1#04-datalist--prelude)
+5.  [Zip e Fold](https://github.com/FrBreno/Prog_Funcional_2022.1#05-zip-e-fold)
+6.  [Maybe](https://github.com/FrBreno/Prog_Funcional_2022.1#06-maybe)
 
 ### Tópicos Extras
 
-1. Semana 01
-1. Semana 02
-1. Semana 03
+1. [Semana 01](https://github.com/FrBreno/Prog_Funcional_2022.1#semana-01)
+1. [Semana 02](https://github.com/FrBreno/Prog_Funcional_2022.1#semana-02)
+1. [Semana 03](https://github.com/FrBreno/Prog_Funcional_2022.1#semana-03)
 
 ### 01. Aquecimento
 
@@ -194,18 +188,6 @@ Abaixo estão listadas todas as atividades e suas respectivas resoluções.
 - [@069 @ elemIndex - Data.List](https://github.com/FrBreno/Prog_Funcional_2022.1/blob/main/S08/08_Maybe/69_elemIndex.hs)
 - [@081 somaMaybe](https://github.com/FrBreno/Prog_Funcional_2022.1/blob/main/S08/08_Maybe/81_somaMaybe.hs)
 - [@082 filterMaybe](https://github.com/FrBreno/Prog_Funcional_2022.1/blob/main/S08/08_Maybe/82_filterMaybe.hs)
-
-### 07. Strings
-
-### 08. Math
-
-### 09. Infinite
-
-### 10. Ordenação
-
-### 11. Novas
-
-### 12. Challenges
 
 ### Extras
 
